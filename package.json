@@ -1,0 +1,27 @@
+{
+  "name": "turkish-synonyms-api",
+  "version": "0.0.0",
+  "description": "NodeJS API for querying synonyms of Turkish words",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/turkish-synonyms-api"
+  },
+  "dependencies": {
+    "memoize-with-leveldb": "*",
+    "debug": "*",
+    "circle": "*",
+    "new-command": "*",
+    "scrape-url": "1.x",
+    "default-debug": "0.0.0"
+  },
+  "keywords": [
+    "turkish",
+    "synonym"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/turkish-synonyms-api.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
